@@ -6,4 +6,4 @@
       
 Technologies
       
-This project used HTML, CSS and javascript<p>
+This project used HTML, CSS and javascript and was launched on November 1st 2020.
