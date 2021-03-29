@@ -75,16 +75,16 @@ for ( var i = 0; i < passSelectLength; i++){
 }
 
 }
-
-else if (upper ==true && number == true && lower == false && specialChar == false){
-
+//uppper numeric only numeric returning
+else if (upper == true && lower == false && specialChar == false){
+    // number == true &&
 for ( var i = 0; i < passSelectLength; i++){
     newArray.push(upperAlphabet[Math.floor(Math.random() * upperAlphabet.length)])
     newArray.push(numeric[Math.floor(Math.random() * numeric.length)])
 }
 
 }
-/* Review this line*/
+/* Review this line returning special char only*/
 else if (upper ==true && specialChar  == true && lower == false && number== false){
 
 for ( var i = 0; i < passSelectLength; i++){
